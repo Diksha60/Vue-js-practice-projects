@@ -1,3 +1,13 @@
+<template>
+    <h1>Name: {{ name }}</h1>
+    <h1>Address: {{ Address }}</h1>
+    <h1>Email: {{ Email }}</h1>
+    <h1>PhoneNo: {{ PhoneNo }}</h1>
+    <h1>Name: {{ getName("Asmita") }}</h1>
+    
+    <h1>All Data of Regan: {{ getData() }}</h1>
+    </template>
+
 <script>
 export default {
     name: "HomeComponent",
@@ -24,13 +34,3 @@ export default {
     }
 }
 </script>
-
-<template>
-<h1>Name: {{ name }}</h1>
-<h1>Address: {{ Address }}</h1>
-<h1>Email: {{ Email }}</h1>
-<h1>PhoneNo: {{ PhoneNo }}</h1>
-<h1>Name: {{ getName("Asmita") }}</h1>
-
-<h1>All Data of Regan: {{ getData() }}</h1>
-</template>

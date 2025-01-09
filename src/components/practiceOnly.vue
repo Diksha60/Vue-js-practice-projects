@@ -33,7 +33,7 @@
 <br>
 <br>
 
-<h2>Lagnguges</h2>
+<h2>Lagnguaes</h2>
 <br>
 <br>
 
