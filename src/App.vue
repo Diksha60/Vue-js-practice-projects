@@ -24,27 +24,40 @@
 <!-- <UseofWatcher /> -->
 <!-- <UseogSlots /> -->
 <!-- <CreatePhase /> -->
- <h1>hello</h1>
+<!-- <ApiCall /> -->
+<!-- <h1>hello</h1> -->
 
- <nav>
+<!-- <nav>
         <router-link to="/HomeComponent">Home Component</router-link>
         <router-link to="/practiceForm">Practice Form</router-link>
         <router-link to="/simpleForm">Simple Form</router-link>
         <router-link to="/useofSlots">Use of Slots</router-link>
+        <router-link to="/ProfileComponent/1">Regan's Profile</router-link>
+        <router-link to="/ProfileComponent/2"> Diksha'sProfile</router-link>
+        <router-link to="/ProfileComponent/3">Alisha's Profile</router-link>
     </nav>
     <main>
         <router-view></router-view>
-    </main>
+    </main> -->
 
-    <DynamicComponent />
+<!-- <DynamicComponent /> -->
+<!-- <MountedPhase /> -->
+<!-- <UpdataPhase /> -->
+<!-- <UnmountedPhase /> -->
+ <FormwithAPI />
 </template>
 
 <script>
-import DynamicComponent from './components/dynamicComponent.vue';
+import FormwithAPI from './components/FormwithAPI.vue';
 
+// import ApiCall from './components/ApiCall.vue';
 
+// import UnmountedPhase from './components/UnmountedPhase.vue';
 
+// import MountedPhase from './components/MountedPhase.vue';
+// import UpdataPhase from './components/UpdataPhase.vue';
 
+// import DynamicComponent from './components/dynamicComponent.vue';
 
 // import CreatePhase from './components/createPhase.vue';
 
@@ -128,7 +141,12 @@ export default {
         // UseofWatcher,
         // UseogSlots,
         // CreatePhase,
-        DynamicComponent,
+        // DynamicComponent,
+        // MountedPhase,
+        // UpdataPhase,
+        // UnmountedPhase,
+        // ApiCall,
+        FormwithAPI,
     },
 
 }
