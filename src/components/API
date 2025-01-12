@@ -1,0 +1,10 @@
+API-Application programming interface
+there is a interface between two programming language where data can be shared to connect to the database and display on frontend.
+Js (Vue, React, Angular and so on) they cannot connect to the database directly. So need API to connect to the database.
+install api package: 
+npm i axios
+
+create-data create
+get-data get
+post-data post
+put- data update

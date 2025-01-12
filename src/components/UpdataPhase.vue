@@ -23,3 +23,9 @@ export default {
     }
 }
 </script>
+<!-- this phase is called when ui is updated -->
+<!-- where can this be used?
+ -check login
+ -check age authenticathion
+ -to check if condition based on some values
+  -->

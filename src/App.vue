@@ -44,11 +44,16 @@
 <!-- <MountedPhase /> -->
 <!-- <UpdataPhase /> -->
 <!-- <UnmountedPhase /> -->
- <FormwithAPI />
+ <!-- <FormwithAPI /> -->
+  <VueX />
+   <AddProduct />
 </template>
 
 <script>
-import FormwithAPI from './components/FormwithAPI.vue';
+import AddProduct from './components/addProduct.vue';
+import VueX from './components/VueX.vue';
+
+// import FormwithAPI from './components/FormwithAPI.vue';
 
 // import ApiCall from './components/ApiCall.vue';
 
@@ -146,7 +151,9 @@ export default {
         // UpdataPhase,
         // UnmountedPhase,
         // ApiCall,
-        FormwithAPI,
+        // FormwithAPI,
+        VueX,
+        AddProduct,
     },
 
 }
